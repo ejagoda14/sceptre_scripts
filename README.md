@@ -51,7 +51,7 @@ devtools::install_github("katsevich-lab/sceptre")
 Run power analysis:
 Rscript for_submit_cleaner_and_w_reps_power_simulation_workflow_EJ_new_w_sceptre_fixed_new_1.23.24_w_no_mast_input.R arg1 arg2
 
-arg 1 is the args file, for example see:
+arg 1 is the args file, for example see: inputs_tab_wtc11_16_lanes.txt
 arg 2 is a file with the list of guides to simluate the power analysis for (note, you can split a guide file into many smaller files to run multiple jobs in parallel(
 
 
