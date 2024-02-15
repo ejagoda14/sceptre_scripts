@@ -1,0 +1,10 @@
+variable	value
+sceptre_object_name	/oak/stanford/groups/engreitz/Users/ejagoda/231114-WTC11-ENCODE-DC-TAP-MOI5-Frozen-16-Lanes/231114-WTC11-ENCODE-DC-TAP-MOI5-Frozen-16-Lanes_new_sceptre_side_both_grna_integration_union_guide_assignment_thresholdingfinal_sceptre_object.rds
+full_grna_matrix_name	/oak/stanford/groups/engreitz/Users/ejagoda/231114-WTC11-ENCODE-DC-TAP-MOI5-Frozen-16-Lanes/231114-WTC11-ENCODE-DC-TAP-MOI5-Frozen-16-Lanes_new_sceptre_side_both_grna_integration_union_guide_assignment_thresholding_gRNA_matrix.RDS
+full_response_matrix_name 	/oak/stanford/groups/engreitz/Users/ejagoda/231114-WTC11-ENCODE-DC-TAP-MOI5-Frozen-16-Lanes/231114-WTC11-ENCODE-DC-TAP-MOI5-Frozen-16-Lanes_new_sceptre_side_both_grna_integration_union_guide_assignment_thresholding_gene_matrix.RDS
+sce_object_name	/oak/stanford/groups/engreitz/Users/ejagoda/Encode_K562_Random_TAP_screen/CRISPRiScreen-example/results/231114-WTC11-ENCODE-DC-TAP-MOI5-Frozen-16-Lanes/sce_object_from_sceptre_workflow_w_disp.rds
+n_pert	all
+outprefix	231114-WTC11-ENCODE-DC-TAP-MOI5-Frozen-16-Lanes
+effect	0.25
+reps	3
+center	FALSE
