@@ -9,6 +9,7 @@ devtools::install_github("katsevich-lab/sceptre")
 3. Run sceptre using the R script: new_sceptre_for_server.R
 The inputs to this script are as follows [some of these are dumby variables for future commits, that should not be changed]:
 Arg 1 = path to folder with untarred 10x matrix
+
 Arg2 = “x” [dumby]
 Arg3 = gene x guide targets to test, for example see:
 gene_gRNA_group_pairs_wtc11_encode_for_sceptre.txt 
