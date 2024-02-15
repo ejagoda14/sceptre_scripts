@@ -6,7 +6,9 @@ conda-env create -f envs/r_env.yml -p envs/R_env
 2. with environment active, open R and install sceptre following the developers instructions
 install.packages("devtools")
 devtools::install_github("katsevich-lab/sceptre")
-3. Run sceptre using the R script: new_sceptre_for_server.R
+
+
+Run sceptre using the R script: new_sceptre_for_server.R
 The inputs to this script are as follows [some of these are dumby variables for future commits, that should not be changed]:
 
 Arg 1 = path to folder with untarred 10x matrix
