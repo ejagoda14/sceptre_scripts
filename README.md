@@ -8,20 +8,31 @@ install.packages("devtools")
 devtools::install_github("katsevich-lab/sceptre")
 3. Run sceptre using the R script: new_sceptre_for_server.R
 The inputs to this script are as follows [some of these are dumby variables for future commits, that should not be changed]:
+
 Arg 1 = path to folder with untarred 10x matrix
 
 Arg2 = “x” [dumby]
-Arg3 = gene x guide targets to test, for example see:
-gene_gRNA_group_pairs_wtc11_encode_for_sceptre.txt 
-Arg4 = gRNA guides x guide targets file, for example gRNA_groups_table_wtc11_encode.txt
+
+Arg3 = gene x guide targets to test, for example see: gene_gRNA_group_pairs_wtc11_encode_for_sceptre.txt 
+
+Arg4 = gRNA guides x guide targets file, for example see: gRNA_groups_table_wtc11_encode.txt
+
 Arg5 = sample_name
+
 Arg6 = all [dumby]
+
 Arg7 = no [dumby]
+
 Arg8 = moi 
 either  “high” or “low”
+
 Arg9 side = “both” or “left”
-Arg10 = “union”
+
+Arg10 = grna_integration_strategy either “union” or "bonferroni"
+
 Arg11 = guide assignment strategy either “thresholding” or mixture
+
 Arg12 = output directory path
+
 Arg13 = are there positive controls? “yes” or “no”
 
