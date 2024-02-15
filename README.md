@@ -9,6 +9,7 @@ devtools::install_github("katsevich-lab/sceptre")
 
 
 Run sceptre using the R script: new_sceptre_for_server.R
+
 The inputs to this script are as follows [some of these are dumby variables for future commits, that should not be changed]:
 
 Arg 1 = path to folder with untarred 10x matrix
